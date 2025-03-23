@@ -1,6 +1,16 @@
 <script setup>
+import Hero from '@/components/Hero.vue'
+import HomeCards from '@/components/HomeCards.vue'
+import JobListings from '@/components/JobListings.vue'
 </script>
 
 <template>
-    <h1>Home</h1>
+    <!-- Hero -->
+    <Hero />
+
+    <!-- Developers and Employers -->
+    <HomeCards />
+
+    <!-- Job Listings -->
+    <JobListings limit="3" showAllButton="true" />
 </template>
