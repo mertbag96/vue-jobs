@@ -12,5 +12,5 @@ import JobListings from '@/components/JobListings.vue'
     <HomeCards />
 
     <!-- Job Listings -->
-    <JobListings limit="3" showAllButton="true" />
+    <JobListings limit="6" showAllButton="true" />
 </template>
